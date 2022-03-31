@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Header />
+    <NavBar />
+    <Nuxt />
+    <Footer />
   </div>
 </template>
 
