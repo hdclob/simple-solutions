@@ -34,5 +34,7 @@
 <style scoped>
   #about {
     background-color: white;
+    position: relative;
+    z-index: 100;
   }
 </style>

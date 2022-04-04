@@ -1,9 +1,10 @@
 <template>
   <div>
-    <Header />
-    <About />
-    <Services />
-    <Team />
+    <Header class="section" />
+    <About class="section" />
+    <Services class="section" />
+    <Team class="section" />
+    <Contact class="section" />
   </div>
 </template>
 

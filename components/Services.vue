@@ -48,6 +48,16 @@
            icon: 'fa-solid fa-shield fa-fw',
            title: 'Security Testing'
          },
+         {
+           id: 7,
+           icon: 'fa-solid fa-music fa-fw',
+           title: 'Sound Production'
+         },
+         {
+           id: 8,
+           icon: 'fa-solid fa-image fa-fw',
+           title: 'Graphics Design'
+         },
        ]
       }
     }

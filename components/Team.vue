@@ -18,7 +18,7 @@
             id: 1,
             name: 'Hugo Braga',
             image: require('@/assets/images/team/default-user-image.png'),
-            role: 'Project Manager'
+            role: 'Web Developer'
           },
           {
             id: 2,
@@ -30,13 +30,13 @@
             id: 3,
             name: 'Markus Simpson',
             image: require('@/assets/images/team/default-user-image.png'),
-            role: 'Lead Researcher'
+            role: 'Web Developer'
           },
           {
             id: 4,
             name: 'Joshua Emmanuel',
             image: require('@/assets/images/team/default-user-image.png'),
-            role: 'Lead Researcher'
+            role: 'Sound Engineer'
           },
           {
             id: 5,
