@@ -1,6 +1,9 @@
 <template>
   <div>
     <Header />
+    <About />
+    <Services />
+    <Team />
   </div>
 </template>
 

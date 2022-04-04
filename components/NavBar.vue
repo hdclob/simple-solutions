@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" class="navbar-bg" type="dark" variant="dark" sticky>
-    <b-navbar-brand to="/"><img class="logo" src="~/assets/images/SIMPLE SOLUTIONS-02.png" /></b-navbar-brand>
+    <b-navbar-brand to="#home"><img class="logo" src="~/assets/images/SIMPLE SOLUTIONS-02.png" /></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
