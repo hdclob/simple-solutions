@@ -1,5 +1,5 @@
 <template>
-  <div class="service-display p-4">
+  <div class="service-display p-4" :class="{'service-active': service.active}">
     <span :class="service.icon"></span> {{ service.title }}
   </div>
 </template>
@@ -17,7 +17,8 @@
     transition: 0.3s;
   }
 
-  .service-display:hover {
+  .service-display:hover,
+  .service-display.service-active {
     background-color: white;
     border: 1px solid black;
     color: black;
