@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header class="section" />
+    <Header title="Elegant Solutions<br/>to Complex Problems" class="section" />
     <About class="section" />
     <Services class="section" />
     <Team class="section" />
@@ -10,7 +10,9 @@
 
 <script>
   export default {
-
+    async asyncData({ store }) {
+      store.commit('setShowMenu', true)
+    }
   }
 </script>
 

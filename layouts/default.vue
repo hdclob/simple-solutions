@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <NavBar />
+    <NavBar :showMenu="$store.state.showMenu" />
     <Nuxt />
     <Footer />
   </div>

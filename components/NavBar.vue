@@ -1,10 +1,10 @@
 <template>
   <b-navbar ref="customNavbar" toggleable="lg" class="navbar-bg" type="dark" variant="dark" sticky>
-    <b-navbar-brand @click="scrollToLink('#home')" href="javascript:;"><img class="logo" src="~/assets/images/SIMPLE SOLUTIONS-02.png" /></b-navbar-brand>
+    <b-navbar-brand href="/" ><img class="logo" src="~/assets/images/SIMPLE SOLUTIONS-02.png" /></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav>
+    <b-collapse id="nav-collapse" is-nav v-if="showMenu">
       <b-navbar-nav>
         <b-nav-item href="javascript:;" @click="scrollToLink('#about')">About</b-nav-item>
         <b-nav-item href="javascript:;" @click="scrollToLink('#services')">Our Services</b-nav-item>
@@ -17,6 +17,7 @@
 
 <script>
   export default {
+    props: ['showMenu'],
     methods: {
       scrollToLink: function(anchor) {
         let section = document.querySelector(anchor);

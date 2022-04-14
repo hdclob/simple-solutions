@@ -40,13 +40,10 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <NuxtLink to="#!" class="text-white">Privacy Policy</NuxtLink>
+                <NuxtLink to="/privacy-policy" class="text-white">Privacy Policy</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="#!" class="text-white">Cookies Policy</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="#!" class="text-white">Terms and Conditions</NuxtLink>
+                <NuxtLink to="/terms-conditions" class="text-white">Terms and Conditions</NuxtLink>
               </li>
             </ul>
           </div>

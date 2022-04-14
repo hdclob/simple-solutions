@@ -5,13 +5,14 @@
       <img :src="currentImage" :key="currentImage" class="image-slider"/>
     </transition>
     <div class="container d-flex justify-content-center align-items-center position-relative h-100 text-center">
-      <h1 class="header-text">Elegant Solutions<br/>to Complex Problems</h1>
+      <h1 class="header-text" v-html="title"></h1>
     </div>
 	</div>
 </template>
 
 <script>
   export default {
+    props: ['title'],
     data() {
       return {
         images: [
@@ -21,25 +22,25 @@
           require('@/assets/images/headers/header4.jpg'),
           require('@/assets/images/headers/header5.jpg'),
         ],
-		currentIndex: 0
+		    currentIndex: 0
       }
     },
     created() {
-		this.startTimer();
+		  this.startTimer();
     },
-	methods: {
-		startTimer: function() {
-			setInterval(this.changeImage, 8000);
-		},
-		changeImage: function() {
-			this.currentIndex++;
-		}
-	},
-	computed: {
-		currentImage: function() {
-			return this.images[Math.abs(this.currentIndex) % this.images.length]
-		}
-	}
+	  methods: {
+      startTimer: function() {
+        setInterval(this.changeImage, 8000);
+      },
+      changeImage: function() {
+        this.currentIndex++;
+      }
+    },
+    computed: {
+      currentImage: function() {
+        return this.images[Math.abs(this.currentIndex) % this.images.length]
+      }
+    }
   }
 </script>
 
