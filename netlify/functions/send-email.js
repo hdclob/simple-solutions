@@ -1,3 +1,6 @@
 exports.handler = async function(event, context) {
-  return res.status(200).json({ 'message': 'Email sent!' })
+  return {
+    statusCode: 200,
+    body: JSON.stringify({message: "Email sent!"})
+  }
 }
