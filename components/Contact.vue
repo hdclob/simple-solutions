@@ -69,7 +69,7 @@
         if (!this.validateForm()) {
           return;
         }
-        this.$axios.post('/api/v1/send-email', this.contact)
+        this.$axios.post(process.env.CONTACT_SUBMISSION_URL, this.contact)
           .then((res) => {
             this.showSuccessModal();
           })
