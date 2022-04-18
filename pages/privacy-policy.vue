@@ -2,7 +2,7 @@
   <div>
     <Header title="Privacy<br/>Policy" class="section" />
     <div class="container my-4">
-      <p>At Simple Solutions, accessible from www.simplesolutions.co.uk, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Simple Solutions and how we use it.</p>
+      <p>At Simple Solutions, accessible from https://simple-solutions.netlify.app/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Simple Solutions and how we use it.</p>
       <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
       <h2>General Data Protection Regulation (GDPR)</h2>
