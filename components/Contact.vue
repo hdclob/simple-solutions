@@ -69,8 +69,8 @@
         if (!this.validateForm()) {
           return;
         }
-        console.log(process.env.CONTACT_SUBMISSION_URL);
-        this.$axios.post(process.env.CONTACT_SUBMISSION_URL, this.contact)
+        // this.$axios.post('/api/v1/send-email', this.contact)
+        this.$axios.post('https://simple-solutions.netlify.app/.netlify/functions/send-email', this.contact)
           .then((res) => {
             this.showSuccessModal();
           })
