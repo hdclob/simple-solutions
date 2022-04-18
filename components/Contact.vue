@@ -69,6 +69,7 @@
         if (!this.validateForm()) {
           return;
         }
+        console.log(process.env.CONTACT_SUBMISSION_URL);
         this.$axios.post(process.env.CONTACT_SUBMISSION_URL, this.contact)
           .then((res) => {
             this.showSuccessModal();
