@@ -6,17 +6,12 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/Simple-Solutions-105522618821637" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/simple-solutions-54b499239/" role="button"
           ><i class="fab fa-linkedin-in"></i
         ></a>
       </section>
