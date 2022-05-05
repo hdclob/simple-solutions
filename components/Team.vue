@@ -17,37 +17,37 @@
           {
             id: 1,
             name: 'Hugo Braga',
-            image: require('@/assets/images/team/hugo.png'),
+            image: require('@/assets/images/team/hugo.jpg'),
             role: 'Web Developer'
           },
           {
             id: 2,
             name: 'Jack Moorhouse',
-            image: require('@/assets/images/team/jack.png'),
+            image: require('@/assets/images/team/jack.jpg'),
             role: 'Lead Designer'
           },
           {
             id: 3,
             name: 'Markus Simpson',
-            image: require('@/assets/images/team/markus.png'),
+            image: require('@/assets/images/team/markus.jpg'),
             role: 'Web Developer'
           },
           {
             id: 4,
             name: 'Joshua Emmanuel',
-            image: require('@/assets/images/team/joshua.png'),
+            image: require('@/assets/images/team/joshua.jpg'),
             role: 'Sound Engineer'
           },
           {
             id: 5,
             name: 'Filipe Cavaleiro',
-            image: require('@/assets/images/team/filipe-charis.png'),
+            image: require('@/assets/images/team/filipe-charis.jpg'),
             role: 'Game Developer'
           },
           {
             id: 6,
             name: 'Charis Christodoulakis',
-            image: require('@/assets/images/team/filipe-charis.png'),
+            image: require('@/assets/images/team/filipe-charis.jpg'),
             role: 'Game Developer'
           },
         ]
